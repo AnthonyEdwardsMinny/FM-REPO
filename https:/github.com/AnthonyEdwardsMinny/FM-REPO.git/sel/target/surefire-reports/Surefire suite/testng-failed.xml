@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="baseclass.Tc_02_Test">
+        <methods>
+          <include name="confbm"/>
+          <include name="cofiGbC"/>
+          <include name="createContact"/>
+          <include name="configAc"/>
+        </methods>
+      </class> <!-- baseclass.Tc_02_Test -->
+      <class name="baseclass.tc_01Test">
+        <methods>
+          <include name="confbm"/>
+          <include name="cofiGbC"/>
+          <include name="configAc"/>
+          <include name="jupcontactvalid"/>
+        </methods>
+      </class> <!-- baseclass.tc_01Test -->
+      <class name="baseclass.Tc_03Test">
+        <methods>
+          <include name="addtocart"/>
+          <include name="confbm"/>
+          <include name="cofiGbC"/>
+          <include name="configAc"/>
+        </methods>
+      </class> <!-- baseclass.Tc_03Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
